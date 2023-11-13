@@ -1,0 +1,54 @@
+h1{
+    color: blue;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    width: 400px;
+    padding-left: 40px;
+}
+h2{
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    width: 400px;
+    padding-left: 40px;
+    
+}
+pre{
+    text-align: justify;
+    width: 400px;
+    text-indent: 30px;
+    line-height: 24px;
+}
+
+.red{
+    color: red;
+}
+
+.changestyle{
+    color: red;
+    font-weight: bolder;
+
+}
+.pre3{
+    color: blue;
+    font-style: italic;
+    font-weight: lighter;
+}
+.pre4{
+    color: blue;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+.pre5{
+    color: blue;
+    font-style: italic;
+    font-weight: lighter;
+}
+.pre6{
+    color: blue;
+    font-style: italic;
+    font-weight: lighter;
+}
