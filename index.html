@@ -4,59 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./css/style.css"
 </head>
 <body>
-    <h1>Список валют</h1>
-    <ul>
-        <li> € (EUR)- Евро (Страны Еврозоны)</li>
-        <li> $ (USD)-Доллар (США)</li>
-        <li> £ (GBP)- Фунт стерлинга (Великобритания)</li>
-        <li> ¥ (JPY)- Иена (Япония)</li>
-        <li> ₾ (GEL)- Лари (Грузия)</li>
+    <h1>Что такое CMS</h1>
+    <pre> 
+            <span class="red">CMS</span> - «система управления контентом» ( <span class="changestyle">движок</span>) - 
+        написанная РНР-программистами основа для сайта, с 
+        помощью которой вы сможете управлять сайтом 
+        (добавлять контент, менять пункты меню и т.п.) не зная
+        HTML и CSS.
+    </pre>
+    <pre>
+        Однако, для того чтобы сделать сайт с помощью
+        <span class="red">CMS</span> <span class="pre3">потребуются услуги </span>  и программиста, и дизайнера, 
+        и верстальщика. И капиталовложения.
+    </pre>
+    <h2>Какие бывают cms</h2>
 
-    </ul>
+    <pre>
+        Бывают различные системы управления контентом:
+        для интернет-магазинов, для блогов, для форумов и т.д.
+    </pre>
 
-    <h2>Курс на сегодгя</h2>
-<table class="table1">
-    <tr>
-        <th>Флаг</th>
-        <th>Валюта</th>
-        <th>Курс</th>
-    </tr>
-    <tr>
-        <td>
-            <img src="https://kovervdom.ru/upload/resize_cache/iblock/e7c/1212_716_15300766a984eafd5d1fac4dbeb8046b4/393b1e7baf9ed6efbc7870adab8d9be2.png" alt="Flag USA">
-            <img src="https://m.media-amazon.com/images/I/51l6hscPd1L.jpg" alt="Flag Europa">
-        </td>
-        <td>$ (USD)/€ (EUR)</td>
-        <td>0.93€</td>
-    </tr>
-    <tr>
-        <td>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707–1800%29.svg/1024px-Flag_of_Great_Britain_%281707–1800%29.svg.png" alt="Flag Britain">
-            <img src="https://m.media-amazon.com/images/I/51l6hscPd1L.jpg" alt="Flag Europa">
-        </td>
-        <td>£ (GBP)/€ (EUR)</td>
-        <td>1.17€</td>
-    </tr>
-    <tr>
-        <td>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png" alt="Flag Japan">
-            <img src="https://m.media-amazon.com/images/I/51l6hscPd1L.jpg" alt="Flag Europa">
-        </td>
-        <td>¥ (JPY)/€ (EUR)</td>
-        <td>0.0073€</td>
-    </tr>
-    <tr>
-        <td>
-            <img src="data:image/png;base64,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" alt="Flag Georgia">
-            <img src="https://m.media-amazon.com/images/I/51l6hscPd1L.jpg" alt="Flag Europa">
-        </td>
-        <td>₾ (GEL)/€ (EUR)</td>
-        <td>0.32€</td>
-    </tr>
-</table>
-        
+    <h2>Примеры cms </h2>
+    <pre>
+        <span class="pre4">Примеры популярных CMS</span> : Joomla, WordPress (для
+        блогов), PhpBB (для форумов).
+    </pre>
+
+    <pre>
+            <span class="red">CMS-ки</span> бывают <span class="pre5">платные</span> и <span class="pre6">бесплатные</span>.
+    </pre>
 </body>
 </html>
