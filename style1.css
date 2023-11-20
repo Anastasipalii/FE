@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    font-weight: bolder;
+    font-size: 16px;
+}
+ul{
+    padding-left: 30px;
+    margin: 10px 0;
+}
+
+.table1{
+    border: 1px;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.table1 td, .table1 th{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table1 img{
+    width: 50px;
+}
